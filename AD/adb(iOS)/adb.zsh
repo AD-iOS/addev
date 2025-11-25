@@ -2,8 +2,6 @@
 # Apple-iPhone Debug Bridge (adb-like CLI)
 # 开发者测试版本(Version-Developer-beta) 不代表最终版本
 # 伪adb但是命令行版本
-# 大部分注释为中国人(China)添加
-# Most of the comments are added by Chinese (China)
 # 用法: adb install path/to/app.ipa
 #       adb reboot [recovery|sbreload]
 #       adb install-deb path/to/package.deb
