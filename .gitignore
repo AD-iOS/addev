@@ -1,0 +1,6 @@
+.DS_Store
+Terminal
+Thumbs.db
+desktop.ini
+*.tmp
+update.sh
