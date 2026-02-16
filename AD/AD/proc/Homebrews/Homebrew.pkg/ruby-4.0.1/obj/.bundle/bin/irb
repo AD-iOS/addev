@@ -1,2 +1,0 @@
-#!ruby
-load File.realpath("../gems/irb-1.16.0/exe/irb", __dir__)

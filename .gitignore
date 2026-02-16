@@ -5,3 +5,7 @@ desktop.ini
 *.tmp
 update.sh
 .git-pr
+AD/AD/AD-library/.git/*
+AD/AD/AD-library/test/*
+AD/AD/tmp/*
+AD/AD/proc/tmp/*

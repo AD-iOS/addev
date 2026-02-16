@@ -1,2 +1,0 @@
-#!ruby
-load File.realpath("../gems/test-unit-3.7.5/bin/test-unit", __dir__)
