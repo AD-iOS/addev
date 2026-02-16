@@ -1,1 +1,0 @@
-/bin/clang++  -isysroot /var/theos/sdks/iPhoneOS17.5.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/dm.dir/dm.cc.o -o bin/dm
