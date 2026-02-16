@@ -9,3 +9,8 @@ AD/AD/AD-library/.git/*
 AD/AD/AD-library/test/*
 AD/AD/tmp/*
 AD/AD/proc/tmp/*
+AD/AD/AD-library/test/obj/*
+AD/AD/dpkg-force-install/roothide-update-path/*
+AD/AD/test/obj/*
+!build/*
+AD/AD/*/build/*
