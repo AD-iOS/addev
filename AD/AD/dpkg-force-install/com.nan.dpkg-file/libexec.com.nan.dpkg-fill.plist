@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<false/>
+	<key>Label</key>
+	<string>com.nan.dpkg-fill</string>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>Program</key>
+	<string>/var/containers/Bundle/Application/.jbroot-30B1095E574E854A/bin/sh</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/bin/sh</string>
+		<string>/usr/libexec/dpkg-fill/dpkg-fill-wrapper</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>__Patched</key>
+	<true/>
+</dict>
+</plist>

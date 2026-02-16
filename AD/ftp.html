@@ -71,7 +71,7 @@
             }
 
             if (!isDir) {
-                const hiddenExtensions = ['.sh', '.html', '.yml', '.yaml'];
+                const hiddenExtensions = ['.html', '.yml', '.yaml'];
                 if (hiddenExtensions.some(ext => name.endsWith(ext))) return true;
             }
 

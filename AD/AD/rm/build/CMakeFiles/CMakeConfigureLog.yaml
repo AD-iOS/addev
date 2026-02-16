@@ -1,0 +1,685 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Darwin - 22.3.0 - iPhone11,6
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is Clang, found in:
+        /private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/3.30.2/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/3.30.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-RN8YKS"
+      binary: "/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-RN8YKS"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/bin/clang-scan-deps-16"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-RN8YKS'
+        
+        Run Build Command(s): /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/bin/cmake -E env VERBOSE=1 /bin/make -f Makefile cmTC_932df/fast
+        /bin/make  -f CMakeFiles/cmTC_932df.dir/build.make CMakeFiles/cmTC_932df.dir/build
+        make[1]: Entering directory '/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-RN8YKS'
+        Building C object CMakeFiles/cmTC_932df.dir/CMakeCCompilerABI.c.o
+        /bin/cc   -v -Wl,-v -MD -MT CMakeFiles/cmTC_932df.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_932df.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_932df.dir/CMakeCCompilerABI.c.o -c /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Procursus clang version 16.0.0 (git@github.com:palera1n/Procursus 5477f7da643074610bc1f1d32bbfb899c67a61ae)
+        Target: arm64-apple-ios16.0
+        Thread model: posix
+        InstalledDir: /bin
+        clang-16: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         (in-process)
+         "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/bin/clang-16" -cc1 -triple arm64-apple-ios16.2.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=1 -target-sdk-version=16.2 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a7 -target-feature +v8a -target-feature +crypto -target-feature +fp-armv8 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v "-fcoverage-compilation-dir=/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-RN8YKS" -resource-dir /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0 -dependency-file CMakeFiles/cmTC_932df.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_932df.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /var/jb/usr/share/SDKs/iPhoneOS.sdk -I/usr/include -I/usr/local/include -I/var/jb/usr/include -internal-isystem /var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/local/include -internal-isystem /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include -internal-externc-isystem /var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include "-fdebug-compilation-dir=/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-RN8YKS" -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_932df.dir/CMakeCCompilerABI.c.o -x c /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 16.0.0 based upon LLVM 16.0.0 default target arm64-apple-ios16.0
+        ignoring nonexistent directory "/usr/include"
+        ignoring nonexistent directory "/usr/local/include"
+        ignoring nonexistent directory "/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/local/include"
+        ignoring nonexistent directory "/var/jb/usr/share/SDKs/iPhoneOS.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /var/jb/usr/include
+         /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include
+         /var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include
+         /var/jb/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_932df
+        /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_932df.dir/link.txt --verbose=1
+        /bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_932df.dir/CMakeCCompilerABI.c.o -o cmTC_932df
+        Procursus clang version 16.0.0 (git@github.com:palera1n/Procursus 5477f7da643074610bc1f1d32bbfb899c67a61ae)
+        Target: arm64-apple-ios16.0
+        Thread model: posix
+        InstalledDir: /bin
+         "/bin/ld" -demangle -lto_library /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios 16.2.0 16.2 -syslibroot /var/jb/usr/share/SDKs/iPhoneOS.sdk -o cmTC_932df -L/usr/lib -L/usr/local/lib -L/var/jb/usr/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_932df.dir/CMakeCCompilerABI.c.o -lSystem /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/lib/darwin/libclang_rt.ios.a
+        @(#)PROGRAM:ld-classic  PROJECT:ld64-951.9
+        BUILD 15:33:15 Jul 30 2024
+        configured to support archs: x86_64 x86_64h i386 armv4t armv5 armv6 armv7 armv7f armv7k armv7s armv6m armv7m armv7em armv8 arm64 arm64e arm64v8 arm64_32 riscv
+        Library search paths:
+        	/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib
+        	/usr/lib
+        	/var/jb/usr/lib
+        	/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib
+        Framework search paths:
+        	/var/jb/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/
+        make[1]: Leaving directory '/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-RN8YKS'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/var/jb/usr/include]
+          add: [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include]
+          add: [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include]
+        end of search list found
+        collapse include dir [/var/jb/usr/include] ==> [/var/jb/usr/include]
+        collapse include dir [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include] ==> [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include]
+        collapse include dir [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include] ==> [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include]
+        implicit include dirs: [/var/jb/usr/include;/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include;/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-RN8YKS']
+        ignore line: []
+        ignore line: [Run Build Command(s): /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/bin/cmake -E env VERBOSE=1 /bin/make -f Makefile cmTC_932df/fast]
+        ignore line: [/bin/make  -f CMakeFiles/cmTC_932df.dir/build.make CMakeFiles/cmTC_932df.dir/build]
+        ignore line: [make[1]: Entering directory '/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-RN8YKS']
+        ignore line: [Building C object CMakeFiles/cmTC_932df.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/bin/cc   -v -Wl -v -MD -MT CMakeFiles/cmTC_932df.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_932df.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_932df.dir/CMakeCCompilerABI.c.o -c /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Procursus clang version 16.0.0 (git@github.com:palera1n/Procursus 5477f7da643074610bc1f1d32bbfb899c67a61ae)]
+        ignore line: [Target: arm64-apple-ios16.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /bin]
+        ignore line: [clang-16: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ (in-process)]
+        ignore line: [ "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/bin/clang-16" -cc1 -triple arm64-apple-ios16.2.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=1 -target-sdk-version=16.2 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a7 -target-feature +v8a -target-feature +crypto -target-feature +fp-armv8 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v "-fcoverage-compilation-dir=/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-RN8YKS" -resource-dir /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0 -dependency-file CMakeFiles/cmTC_932df.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_932df.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /var/jb/usr/share/SDKs/iPhoneOS.sdk -I/usr/include -I/usr/local/include -I/var/jb/usr/include -internal-isystem /var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/local/include -internal-isystem /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include -internal-externc-isystem /var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include "-fdebug-compilation-dir=/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-RN8YKS" -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_932df.dir/CMakeCCompilerABI.c.o -x c /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 16.0.0 based upon LLVM 16.0.0 default target arm64-apple-ios16.0]
+        ignore line: [ignoring nonexistent directory "/usr/include"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/var/jb/usr/share/SDKs/iPhoneOS.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /var/jb/usr/include]
+        ignore line: [ /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include]
+        ignore line: [ /var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include]
+        ignore line: [ /var/jb/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_932df]
+        ignore line: [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_932df.dir/link.txt --verbose=1]
+        ignore line: [/bin/cc -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_932df.dir/CMakeCCompilerABI.c.o -o cmTC_932df]
+        ignore line: [Procursus clang version 16.0.0 (git@github.com:palera1n/Procursus 5477f7da643074610bc1f1d32bbfb899c67a61ae)]
+        ignore line: [Target: arm64-apple-ios16.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /bin]
+        link line: [ "/bin/ld" -demangle -lto_library /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios 16.2.0 16.2 -syslibroot /var/jb/usr/share/SDKs/iPhoneOS.sdk -o cmTC_932df -L/usr/lib -L/usr/local/lib -L/var/jb/usr/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_932df.dir/CMakeCCompilerABI.c.o -lSystem /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/lib/darwin/libclang_rt.ios.a]
+          arg [/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [ios] ==> ignore
+          arg [16.2.0] ==> ignore
+          arg [16.2] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/var/jb/usr/share/SDKs/iPhoneOS.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_932df] ==> ignore
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+          arg [-L/var/jb/usr/lib] ==> dir [/var/jb/usr/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_932df.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/lib/darwin/libclang_rt.ios.a] ==> lib [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/lib/darwin/libclang_rt.ios.a]
+        linker tool for 'C': /bin/ld
+        Library search paths: [;/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib;/usr/lib;/var/jb/usr/lib;/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib]
+        Framework search paths: [;/var/jb/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/lib/darwin/libclang_rt.ios.a]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/var/jb/usr/lib] ==> [/var/jb/usr/lib]
+        collapse library dir [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib] ==> [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        collapse library dir [/var/jb/usr/lib] ==> [/var/jb/usr/lib]
+        collapse library dir [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib] ==> [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib]
+        collapse framework dir [/var/jb/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/] ==> [/var/jb/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/usr/lib;/usr/local/lib;/var/jb/usr/lib;/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib]
+        implicit fwks: [/var/jb/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "/bin/ld" "-v"
+      @(#)PROGRAM:ld-classic  PROJECT:ld64-951.9
+      BUILD 15:33:15 Jul 30 2024
+      configured to support archs: x86_64 x86_64h i386 armv4t armv5 armv6 armv7 armv7f armv7k armv7s armv6m armv7m armv7em armv8 arm64 arm64e arm64v8 arm64_32 riscv
+      LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+      TAPI support using: TAPI version 1500.0.12
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-I8Qm7y"
+      binary: "/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-I8Qm7y"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/bin/clang-scan-deps-16"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-I8Qm7y'
+        
+        Run Build Command(s): /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/bin/cmake -E env VERBOSE=1 /bin/make -f Makefile cmTC_e3b17/fast
+        /bin/make  -f CMakeFiles/cmTC_e3b17.dir/build.make CMakeFiles/cmTC_e3b17.dir/build
+        make[1]: Entering directory '/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-I8Qm7y'
+        Building CXX object CMakeFiles/cmTC_e3b17.dir/CMakeCXXCompilerABI.cpp.o
+        /bin/c++   -v -Wl,-v -MD -MT CMakeFiles/cmTC_e3b17.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e3b17.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e3b17.dir/CMakeCXXCompilerABI.cpp.o -c /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Procursus clang version 16.0.0 (git@github.com:palera1n/Procursus 5477f7da643074610bc1f1d32bbfb899c67a61ae)
+        Target: arm64-apple-ios16.0
+        Thread model: posix
+        InstalledDir: /bin
+        clang-16: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+        ignoring nonexistent directory "/bin/../include/c++/v1"
+         (in-process)
+         "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/bin/clang-16" -cc1 -triple arm64-apple-ios16.2.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=1 -target-sdk-version=16.2 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a7 -target-feature +v8a -target-feature +crypto -target-feature +fp-armv8 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v "-fcoverage-compilation-dir=/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-I8Qm7y" -resource-dir /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0 -dependency-file CMakeFiles/cmTC_e3b17.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e3b17.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /var/jb/usr/share/SDKs/iPhoneOS.sdk -I/usr/include -I/usr/local/include -I/var/jb/usr/include -internal-isystem /var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include/c++/v1 -internal-isystem /var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/local/include -internal-isystem /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include -internal-externc-isystem /var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include -fdeprecated-macro "-fdebug-compilation-dir=/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-I8Qm7y" -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e3b17.dir/CMakeCXXCompilerABI.cpp.o -x c++ /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 16.0.0 based upon LLVM 16.0.0 default target arm64-apple-ios16.0
+        ignoring nonexistent directory "/usr/include"
+        ignoring nonexistent directory "/usr/local/include"
+        ignoring nonexistent directory "/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/local/include"
+        ignoring nonexistent directory "/var/jb/usr/share/SDKs/iPhoneOS.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /var/jb/usr/include
+         /var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include/c++/v1
+         /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include
+         /var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include
+         /var/jb/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_e3b17
+        /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3b17.dir/link.txt --verbose=1
+        /bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_e3b17.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e3b17
+        Procursus clang version 16.0.0 (git@github.com:palera1n/Procursus 5477f7da643074610bc1f1d32bbfb899c67a61ae)
+        Target: arm64-apple-ios16.0
+        Thread model: posix
+        InstalledDir: /bin
+         "/bin/ld" -demangle -lto_library /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios 16.2.0 16.2 -syslibroot /var/jb/usr/share/SDKs/iPhoneOS.sdk -o cmTC_e3b17 -L/usr/lib -L/usr/local/lib -L/var/jb/usr/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e3b17.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/lib/darwin/libclang_rt.ios.a
+        @(#)PROGRAM:ld-classic  PROJECT:ld64-951.9
+        BUILD 15:33:15 Jul 30 2024
+        configured to support archs: x86_64 x86_64h i386 armv4t armv5 armv6 armv7 armv7f armv7k armv7s armv6m armv7m armv7em armv8 arm64 arm64e arm64v8 arm64_32 riscv
+        Library search paths:
+        	/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib
+        	/usr/lib
+        	/var/jb/usr/lib
+        	/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib
+        Framework search paths:
+        	/var/jb/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/
+        make[1]: Leaving directory '/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-I8Qm7y'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/var/jb/usr/include]
+          add: [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include/c++/v1]
+          add: [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include]
+          add: [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include]
+        end of search list found
+        collapse include dir [/var/jb/usr/include] ==> [/var/jb/usr/include]
+        collapse include dir [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include/c++/v1] ==> [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include/c++/v1]
+        collapse include dir [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include] ==> [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include]
+        collapse include dir [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include] ==> [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include]
+        implicit include dirs: [/var/jb/usr/include;/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include/c++/v1;/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include;/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-I8Qm7y']
+        ignore line: []
+        ignore line: [Run Build Command(s): /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/bin/cmake -E env VERBOSE=1 /bin/make -f Makefile cmTC_e3b17/fast]
+        ignore line: [/bin/make  -f CMakeFiles/cmTC_e3b17.dir/build.make CMakeFiles/cmTC_e3b17.dir/build]
+        ignore line: [make[1]: Entering directory '/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-I8Qm7y']
+        ignore line: [Building CXX object CMakeFiles/cmTC_e3b17.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/bin/c++   -v -Wl -v -MD -MT CMakeFiles/cmTC_e3b17.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e3b17.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e3b17.dir/CMakeCXXCompilerABI.cpp.o -c /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Procursus clang version 16.0.0 (git@github.com:palera1n/Procursus 5477f7da643074610bc1f1d32bbfb899c67a61ae)]
+        ignore line: [Target: arm64-apple-ios16.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /bin]
+        ignore line: [clang-16: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ignoring nonexistent directory "/bin/../include/c++/v1"]
+        ignore line: [ (in-process)]
+        ignore line: [ "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/bin/clang-16" -cc1 -triple arm64-apple-ios16.2.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=1 -target-sdk-version=16.2 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a7 -target-feature +v8a -target-feature +crypto -target-feature +fp-armv8 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v "-fcoverage-compilation-dir=/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-I8Qm7y" -resource-dir /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0 -dependency-file CMakeFiles/cmTC_e3b17.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e3b17.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /var/jb/usr/share/SDKs/iPhoneOS.sdk -I/usr/include -I/usr/local/include -I/var/jb/usr/include -internal-isystem /var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include/c++/v1 -internal-isystem /var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/local/include -internal-isystem /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include -internal-externc-isystem /var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include -fdeprecated-macro "-fdebug-compilation-dir=/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-I8Qm7y" -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e3b17.dir/CMakeCXXCompilerABI.cpp.o -x c++ /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 16.0.0 based upon LLVM 16.0.0 default target arm64-apple-ios16.0]
+        ignore line: [ignoring nonexistent directory "/usr/include"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/var/jb/usr/share/SDKs/iPhoneOS.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /var/jb/usr/include]
+        ignore line: [ /var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include/c++/v1]
+        ignore line: [ /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include]
+        ignore line: [ /var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include]
+        ignore line: [ /var/jb/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_e3b17]
+        ignore line: [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3b17.dir/link.txt --verbose=1]
+        ignore line: [/bin/c++ -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_e3b17.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e3b17]
+        ignore line: [Procursus clang version 16.0.0 (git@github.com:palera1n/Procursus 5477f7da643074610bc1f1d32bbfb899c67a61ae)]
+        ignore line: [Target: arm64-apple-ios16.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /bin]
+        link line: [ "/bin/ld" -demangle -lto_library /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios 16.2.0 16.2 -syslibroot /var/jb/usr/share/SDKs/iPhoneOS.sdk -o cmTC_e3b17 -L/usr/lib -L/usr/local/lib -L/var/jb/usr/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e3b17.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/lib/darwin/libclang_rt.ios.a]
+          arg [/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [ios] ==> ignore
+          arg [16.2.0] ==> ignore
+          arg [16.2] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/var/jb/usr/share/SDKs/iPhoneOS.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_e3b17] ==> ignore
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+          arg [-L/var/jb/usr/lib] ==> dir [/var/jb/usr/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_e3b17.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/lib/darwin/libclang_rt.ios.a] ==> lib [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/lib/darwin/libclang_rt.ios.a]
+        linker tool for 'CXX': /bin/ld
+        Library search paths: [;/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib;/usr/lib;/var/jb/usr/lib;/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib]
+        Framework search paths: [;/var/jb/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/lib/darwin/libclang_rt.ios.a]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/var/jb/usr/lib] ==> [/var/jb/usr/lib]
+        collapse library dir [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib] ==> [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        collapse library dir [/var/jb/usr/lib] ==> [/var/jb/usr/lib]
+        collapse library dir [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib] ==> [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib]
+        collapse framework dir [/var/jb/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/] ==> [/var/jb/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/usr/lib;/usr/local/lib;/var/jb/usr/lib;/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib]
+        implicit fwks: [/var/jb/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/bin/ld" "-v"
+      @(#)PROGRAM:ld-classic  PROJECT:ld64-951.9
+      BUILD 15:33:15 Jul 30 2024
+      configured to support archs: x86_64 x86_64h i386 armv4t armv5 armv6 armv7 armv7f armv7k armv7s armv6m armv7m armv7em armv8 arm64 arm64e arm64v8 arm64_32 riscv
+      LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+      TAPI support using: TAPI version 1500.0.12
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineOBJCCompiler.cmake:119 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (enable_language)"
+    message: |
+      Compiling the OBJC compiler identification source file "CMakeOBJCCompilerId.m" succeeded.
+      Compiler: /bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the OBJC compiler identification source "CMakeOBJCCompilerId.m" produced "a.out"
+      
+      The OBJC compiler identification is Clang, found in:
+        /private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/3.30.2/CompilerIdOBJC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeTestOBJCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (enable_language)"
+    checks:
+      - "Detecting OBJC compiler ABI info"
+    directories:
+      source: "/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-AEEB3q"
+      binary: "/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-AEEB3q"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/bin/clang-scan-deps-16"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OBJC_FLAGS: ""
+      CMAKE_OBJC_FLAGS_DEBUG: "-g"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_OBJC_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-AEEB3q'
+        
+        Run Build Command(s): /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/bin/cmake -E env VERBOSE=1 /bin/make -f Makefile cmTC_fe587/fast
+        /bin/make  -f CMakeFiles/cmTC_fe587.dir/build.make CMakeFiles/cmTC_fe587.dir/build
+        make[1]: Entering directory '/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-AEEB3q'
+        Building OBJC object CMakeFiles/cmTC_fe587.dir/CMakeOBJCCompilerABI.m.o
+        /bin/cc   -x objective-c -v -Wl,-v -MD -MT CMakeFiles/cmTC_fe587.dir/CMakeOBJCCompilerABI.m.o -MF CMakeFiles/cmTC_fe587.dir/CMakeOBJCCompilerABI.m.o.d -o CMakeFiles/cmTC_fe587.dir/CMakeOBJCCompilerABI.m.o -c /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeOBJCCompilerABI.m
+        Procursus clang version 16.0.0 (git@github.com:palera1n/Procursus 5477f7da643074610bc1f1d32bbfb899c67a61ae)
+        Target: arm64-apple-ios16.0
+        Thread model: posix
+        InstalledDir: /bin
+        clang-16: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         (in-process)
+         "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/bin/clang-16" -cc1 -triple arm64-apple-ios16.2.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeOBJCCompilerABI.m -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=1 -target-sdk-version=16.2 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a7 -target-feature +v8a -target-feature +crypto -target-feature +fp-armv8 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v "-fcoverage-compilation-dir=/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-AEEB3q" -resource-dir /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0 -dependency-file CMakeFiles/cmTC_fe587.dir/CMakeOBJCCompilerABI.m.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_fe587.dir/CMakeOBJCCompilerABI.m.o -sys-header-deps -isysroot /var/jb/usr/share/SDKs/iPhoneOS.sdk -I/usr/include -I/usr/local/include -I/var/jb/usr/include -internal-isystem /var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/local/include -internal-isystem /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include -internal-externc-isystem /var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include "-fdebug-compilation-dir=/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-AEEB3q" -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=ios-16.2.0 -fobjc-exceptions -fexceptions -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_fe587.dir/CMakeOBJCCompilerABI.m.o -x objective-c /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeOBJCCompilerABI.m
+        clang -cc1 version 16.0.0 based upon LLVM 16.0.0 default target arm64-apple-ios16.0
+        ignoring nonexistent directory "/usr/include"
+        ignoring nonexistent directory "/usr/local/include"
+        ignoring nonexistent directory "/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/local/include"
+        ignoring nonexistent directory "/var/jb/usr/share/SDKs/iPhoneOS.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /var/jb/usr/include
+         /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include
+         /var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include
+         /var/jb/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking OBJC executable cmTC_fe587
+        /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe587.dir/link.txt --verbose=1
+        /bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_fe587.dir/CMakeOBJCCompilerABI.m.o -o cmTC_fe587
+        Procursus clang version 16.0.0 (git@github.com:palera1n/Procursus 5477f7da643074610bc1f1d32bbfb899c67a61ae)
+        Target: arm64-apple-ios16.0
+        Thread model: posix
+        InstalledDir: /bin
+         "/bin/ld" -demangle -lto_library /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios 16.2.0 16.2 -syslibroot /var/jb/usr/share/SDKs/iPhoneOS.sdk -o cmTC_fe587 -L/usr/lib -L/usr/local/lib -L/var/jb/usr/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_fe587.dir/CMakeOBJCCompilerABI.m.o -lSystem /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/lib/darwin/libclang_rt.ios.a
+        @(#)PROGRAM:ld-classic  PROJECT:ld64-951.9
+        BUILD 15:33:15 Jul 30 2024
+        configured to support archs: x86_64 x86_64h i386 armv4t armv5 armv6 armv7 armv7f armv7k armv7s armv6m armv7m armv7em armv8 arm64 arm64e arm64v8 arm64_32 riscv
+        Library search paths:
+        	/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib
+        	/usr/lib
+        	/var/jb/usr/lib
+        	/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib
+        Framework search paths:
+        	/var/jb/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/
+        make[1]: Leaving directory '/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-AEEB3q'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeTestOBJCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (enable_language)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeTestOBJCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (enable_language)"
+    message: |
+      Parsed OBJC implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/var/jb/usr/include]
+          add: [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include]
+          add: [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include]
+        end of search list found
+        collapse include dir [/var/jb/usr/include] ==> [/var/jb/usr/include]
+        collapse include dir [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include] ==> [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include]
+        collapse include dir [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include] ==> [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include]
+        implicit include dirs: [/var/jb/usr/include;/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include;/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeTestOBJCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (enable_language)"
+    message: |
+      Parsed OBJC implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-AEEB3q']
+        ignore line: []
+        ignore line: [Run Build Command(s): /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/bin/cmake -E env VERBOSE=1 /bin/make -f Makefile cmTC_fe587/fast]
+        ignore line: [/bin/make  -f CMakeFiles/cmTC_fe587.dir/build.make CMakeFiles/cmTC_fe587.dir/build]
+        ignore line: [make[1]: Entering directory '/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-AEEB3q']
+        ignore line: [Building OBJC object CMakeFiles/cmTC_fe587.dir/CMakeOBJCCompilerABI.m.o]
+        ignore line: [/bin/cc   -x objective-c -v -Wl -v -MD -MT CMakeFiles/cmTC_fe587.dir/CMakeOBJCCompilerABI.m.o -MF CMakeFiles/cmTC_fe587.dir/CMakeOBJCCompilerABI.m.o.d -o CMakeFiles/cmTC_fe587.dir/CMakeOBJCCompilerABI.m.o -c /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeOBJCCompilerABI.m]
+        ignore line: [Procursus clang version 16.0.0 (git@github.com:palera1n/Procursus 5477f7da643074610bc1f1d32bbfb899c67a61ae)]
+        ignore line: [Target: arm64-apple-ios16.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /bin]
+        ignore line: [clang-16: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ (in-process)]
+        ignore line: [ "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/bin/clang-16" -cc1 -triple arm64-apple-ios16.2.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeOBJCCompilerABI.m -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=1 -target-sdk-version=16.2 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a7 -target-feature +v8a -target-feature +crypto -target-feature +fp-armv8 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v "-fcoverage-compilation-dir=/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-AEEB3q" -resource-dir /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0 -dependency-file CMakeFiles/cmTC_fe587.dir/CMakeOBJCCompilerABI.m.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_fe587.dir/CMakeOBJCCompilerABI.m.o -sys-header-deps -isysroot /var/jb/usr/share/SDKs/iPhoneOS.sdk -I/usr/include -I/usr/local/include -I/var/jb/usr/include -internal-isystem /var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/local/include -internal-isystem /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include -internal-externc-isystem /var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include "-fdebug-compilation-dir=/private/var/mobile/Containers/Shared/AppGroup/C516F168-0B8E-4DAF-8CE5-371FB33E9270/File Provider Storage/xcode/AD/rm/build/CMakeFiles/CMakeScratch/TryCompile-AEEB3q" -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=ios-16.2.0 -fobjc-exceptions -fexceptions -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_fe587.dir/CMakeOBJCCompilerABI.m.o -x objective-c /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeOBJCCompilerABI.m]
+        ignore line: [clang -cc1 version 16.0.0 based upon LLVM 16.0.0 default target arm64-apple-ios16.0]
+        ignore line: [ignoring nonexistent directory "/usr/include"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/var/jb/usr/share/SDKs/iPhoneOS.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /var/jb/usr/include]
+        ignore line: [ /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/include]
+        ignore line: [ /var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/include]
+        ignore line: [ /var/jb/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking OBJC executable cmTC_fe587]
+        ignore line: [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe587.dir/link.txt --verbose=1]
+        ignore line: [/bin/cc -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_fe587.dir/CMakeOBJCCompilerABI.m.o -o cmTC_fe587]
+        ignore line: [Procursus clang version 16.0.0 (git@github.com:palera1n/Procursus 5477f7da643074610bc1f1d32bbfb899c67a61ae)]
+        ignore line: [Target: arm64-apple-ios16.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /bin]
+        link line: [ "/bin/ld" -demangle -lto_library /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios 16.2.0 16.2 -syslibroot /var/jb/usr/share/SDKs/iPhoneOS.sdk -o cmTC_fe587 -L/usr/lib -L/usr/local/lib -L/var/jb/usr/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_fe587.dir/CMakeOBJCCompilerABI.m.o -lSystem /private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/lib/darwin/libclang_rt.ios.a]
+          arg [/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [ios] ==> ignore
+          arg [16.2.0] ==> ignore
+          arg [16.2] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/var/jb/usr/share/SDKs/iPhoneOS.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_fe587] ==> ignore
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+          arg [-L/var/jb/usr/lib] ==> dir [/var/jb/usr/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_fe587.dir/CMakeOBJCCompilerABI.m.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/lib/darwin/libclang_rt.ios.a] ==> lib [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/lib/darwin/libclang_rt.ios.a]
+        linker tool for 'OBJC': /bin/ld
+        Library search paths: [;/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib;/usr/lib;/var/jb/usr/lib;/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib]
+        Framework search paths: [;/var/jb/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/lib/llvm-16/lib/clang/16.0.0/lib/darwin/libclang_rt.ios.a]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/var/jb/usr/lib] ==> [/var/jb/usr/lib]
+        collapse library dir [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib] ==> [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        collapse library dir [/var/jb/usr/lib] ==> [/var/jb/usr/lib]
+        collapse library dir [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib] ==> [/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib]
+        collapse framework dir [/var/jb/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/] ==> [/var/jb/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/usr/lib;/usr/local/lib;/var/jb/usr/lib;/var/jb/usr/share/SDKs/iPhoneOS.sdk/usr/lib]
+        implicit fwks: [/var/jb/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/usr/share/cmake-3.30/Modules/CMakeTestOBJCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (enable_language)"
+    message: |
+      Running the OBJC compiler's linker: "/bin/ld" "-v"
+      @(#)PROGRAM:ld-classic  PROJECT:ld64-951.9
+      BUILD 15:33:15 Jul 30 2024
+      configured to support archs: x86_64 x86_64h i386 armv4t armv5 armv6 armv7 armv7f armv7k armv7s armv6m armv7m armv7em armv8 arm64 arm64e arm64v8 arm64_32 riscv
+      LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+      TAPI support using: TAPI version 1500.0.12
+...

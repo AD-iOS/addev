@@ -1,6 +1,12 @@
 #!/bin/zsh
-# Apple-iPhone Debug Bridge (adb-like CLI)
-# 开发者测试版本(Version-Developer-beta) 不代表最终版本
+
+#
+#
+# adb.zsh
+# Created by AD on 13/10/25
+# Copyright (c) 2025 AD All rights reserved.
+#
+#
 
 jailbreak_jb="/var/jb"
 
@@ -18,7 +24,6 @@ Storagespace=$(df -k / | awk 'NR==2 {printf "%.0fGB\n", ($2 * 1024) / 1000000000
 
 Real_storagespace=$(df -k / | awk 'NR==2 {printf "%.0fGB\n", $2 / 1048576}')
 
-# 检查越狱环境 #这里是访问jb文件夹是否存在后续添加越狱商店的检测但是目前够用
 check_jailbreak() {
     [ -d "$jailbreak_jb" ] || { 
         echo "Error: Device not jailbroken or jailbreak directory not found!" >&2
@@ -79,17 +84,17 @@ show_version() {
     echo "$adb_Name (aarch64-apple-darwin)"
 }
 
-# 安装IPA文件 #Installation of IPA files
+# Installation of IPA files
 install_ipa() {
     local ipa_path="$1"
     
-    # 检查文件是否存在 #Check if the file exists
+    # Check if the file exists
     if [ ! -f "$ipa_path" ]; then
         echo "Error: IPA file '$ipa_path' not found!" >&2
         exit 1
     fi
     
-    # 检查文件扩展名 #Checking file extensions
+    # Checking file extensions
     if [[ "$ipa_path" != *.ipa ]]; then
         echo "Error: '$ipa_path' is not an IPA file!" >&2
         exit 1
@@ -97,10 +102,10 @@ install_ipa() {
     
     echo "Installing $ipa_path..."
     
-    # 创建临时解压目录 #Create a temporary decompression directory
+    # Create a temporary decompression directory
     mkdir -p "$temp_dir"
     
-    # 解压IPA #Extract IPA
+    # Extract IPA
     echo "Extracting IPA..."
     if ! unzip -q "$ipa_path" -d "$temp_dir"; then
         echo "Error: Failed to extract IPA file!" >&2
@@ -108,7 +113,7 @@ install_ipa() {
         exit 1
     fi
     
-    # 查找.app文件夹 #Find the .app folder
+    # Find the .app folder
     local app_folder=$(find "$temp_dir/Payload" -name "*.app" -type d 2>/dev/null | head -n 1)
     
     if [ -z "$app_folder" ]; then
@@ -117,7 +122,7 @@ install_ipa() {
         exit 1
     fi
     
-    # 获取应用名称 #Get application name
+    # Get application name
     local app_name=$(basename "$app_folder")
     
     # 检查是否已存在同名应用
@@ -126,14 +131,14 @@ install_ipa() {
         rm -rf "$jailbreak_jb/Applications/$app_name"
     fi
     
-    # 移动应用到Applications目录 #Move the application to the Applications directory
+    # 移动应用到Applications目录
     echo "Installing application: $app_name"
     mv "$app_folder" "$jailbreak_jb/Applications/"
     
-    # 设置权限 #Setting Up Permissions
+    # 设置权限
     chmod -R 755 "$jailbreak_jb/Applications/$app_name"
     
-    # 清理临时文件 #Cleaning up temporary files
+    # 清理临时文件
     rm -rf "$temp_dir"
     
     echo "Successfully installed $app_name"
@@ -357,12 +362,12 @@ reboot_device() {
     case "$mode" in
         "normal")
             echo "Restart device..."
-            sleep 1 #延迟一秒钟执行
+            sleep 1 # 延迟一秒钟执行
             sudo launchctl reboot userspace # 改為重啟用戶空間因為找到了重啟用戶空間的命令
             ;;
         "sbreload")
             echo "Restarting SpringBoard..."
-            sleep 1 #延迟一秒钟执行
+            sleep 1 # 延迟一秒钟执行
             sudo killall -HUP SpringBoard
             ;;
         *)
@@ -451,16 +456,16 @@ main() {
         "devices")
             adb_devices
             ;;
-        "--version") #改用一种约定俗成的方式从version改为--version
+        "--version") # 改用一种约定俗成的方式从version改为--version
             show_version
             ;;
-        "--v")
+        "-v")
             show_version
             ;;
-        "--help") #约定俗成的行为从help改为--help
+        "--help") # 约定俗成的行为从help改为--help
             show_help
             ;;
-        "--h")
+        "-h")
             show_help
             ;;
         "sh-bash")
@@ -486,7 +491,7 @@ main() {
             ;;
         *)
             echo "Error: Unknown command '$command'" >&2
-            echo "Use 'adb --h' or 'adb --help' for usage information" >&2
+            echo "Use 'adb -h' or 'adb --help' for usage information" >&2
             exit 1
             ;;
     esac

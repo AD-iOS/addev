@@ -1,0 +1,31 @@
+#! /bin/sh -
+
+if [ -f '/etc/profile' ]; then
+    . /etc/profile
+    jb=""
+elif [ -f '/var/jb/etc/profile' ]; then
+    . /var/jb/etc/profile
+    jb='/var/jb'
+else
+    echo 'Where the fuck "profile"?' 1>&2
+    exit 1
+fi
+
+dpkgarch=$(dpkg --print-architecture)
+force_install="--force-architecture"
+
+if [ "$dpkgarch" = "iphoneos-arm" ] || [ "$dpkgarch" = "iphoneos-arm64" ]; then
+    rootfs=""
+else
+    rootfs="/rootfs"
+fi
+
+cd "$rootfs/var/containers/Bundle/Application/"
+
+if [ -d .jbroot-* ]; then
+    ln -sf $rootfs/var/containers/Bundle/Application/.jbroot-*/.jbroot ".jbroot"
+    chown 0:0 .jbroot
+else
+    echo "you not/no roothide jailbreak $(date "+%Y-%m-%d %H:%M:%S")" | tee -a "$jb/opt/ad/log/roothide-update-path.log"
+fi
+

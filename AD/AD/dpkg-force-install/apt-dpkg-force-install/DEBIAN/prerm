@@ -1,0 +1,64 @@
+#!/bin/bash
+
+if [ -f '/etc/profile' ]; then
+    source /etc/profile
+    jb=""
+elif [ -f '/var/jb/etc/profile' ]; then
+    source /var/jb/etc/profile
+    jb="/var/jb"
+fi
+
+if [ -d "$jb/.jbroot" ]; then
+    :
+else
+    ln -sf $jb/ .jbroot
+fi
+
+if [ -d "$jb/usr/.jbroot" ]; then
+    :
+else
+    ln -sf ../.jbroot $jb/usr/
+fi
+
+if [ -d "jb/usr/lib/.jbroot" ]; then
+    :
+else
+    ln -sf ../.jbroot $jb/usr/lib/
+fi
+
+if [ -d "$jb/usr/bin/.jbroot" ]; then
+    :
+else
+    ln -sf ../.jbroot $jb/usr/bin/
+fi
+
+if [ -d "$jb/usr/sbin/.jbroot" ]; then
+    :
+else
+    ln -sf ../.jbroot $jb/usr/sbin/
+fi
+
+if [ -d "$jb/sbin/.jbroot" ]; then
+    :
+else
+    ln -sf ../.jbroot $jb/sbin/
+fi
+
+if [ -d "$jb/bin/.jbroot" ]; then
+    :
+else
+    ln -sf ../.jbroot $jb/bin/
+fi
+
+
+ln -sf ../.jbroot $jb/usr/local/
+ln -sf ../.jbroot $jb/usr/local/bin/
+ln -sf ../.jbroot $jb/usr/include/
+ln -sf ../.jbroot $jb/usr/local/lib/
+ln -sf ../.jbroot $jb/boot/
+ln -sf ../.jbroot $jb/usr/share/
+ln -sf ../.jbroot $jb/usr/share/doc/
+ln -sf ../.jbroot $jb/usr/share/man/
+ln -sf ../.jbroot $jb/mnt/
+ln -sf ../.jbroot $jb/usr/lib/DynamicPatches/
+ln -sf ../.jbroot $jb/usr/lib/TweakInject/

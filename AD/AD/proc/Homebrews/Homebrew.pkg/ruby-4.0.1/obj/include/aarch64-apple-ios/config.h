@@ -1,0 +1,1 @@
+/private/preboot/7C7922343CC8461523468BB696C09C1D8FA1EA773FC2B0757CB650C46F0A18BE8D23D2CB9002DF0C5C8E3312893793FC/dopamine-wpn2YR/procursus/Users/AD/.opt/Dev/AD-dev/Library/xcode/AD/proc/Homebrews/Homebrew.pkg/ruby-4.0.1/obj/config.h
