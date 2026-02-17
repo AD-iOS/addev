@@ -1,9 +1,0 @@
-Package: office.ad.roothide.update.path
-Maintainer: AD <ad-ios334@outlook.com>
-Architecture: all
-Version: 0.2
-Depends: mobilesubstrate, firmware (>= 15.0), bash
-Description: give roothide environment make point to .jbroot link of .jbroot-xxx
-Name: roothide-update-path
-Author: AD <ad-ios334@outlook.com>
-Icon: https://AD-iOS.github.io/ad/CydiaIcon.png
